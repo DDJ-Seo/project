@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서동주 맛경찰 코딩</title>
+
+<!-- 제이쿼리 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- 폰트어썸 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- 스와이퍼 -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<!-- 스크롤트리거 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+<!-- 테일윈드 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css">
+<!-- 공통 css -->
+<link rel="stylesheet" href="common.css">
+<!-- 공통 JS -->
+<script src="common.js" defer></script>
+</head>
+<body>
+  <div class="img-box mx-auto">
+    <section class="section section-0"></section>
+    <section class="section section-1">
+      <div class="img-1">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-1_1.png" alt="">
+      </div>
+    </section>
+    <section class="section section-2">
+      <div class="img-2">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-2_1.png" alt="">
+      </div>
+      <div class="img-3">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-2_2.png" alt="">
+      </div>
+    </section>
+    <section class="section section-3">
+      <div class="img-4">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-3_1.png" alt="">
+      </div>
+      <div class="img-5">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-3_2.png" alt="">
+      </div>
+    </section>
+    <section class="section section-4"></section>
+    <section class="section section-5">
+      <div class="img-38">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-5_1.png" alt="">
+      </div>
+    </section>
+    <section class="section section-6">
+      <div class="img-6">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-6_1.png" alt="">
+      </div>
+      <div class="img-7">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-6_2.png" alt="">
+      </div>
+      <div class="img-8">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-6_3.png" alt="">
+      </div>
+      <div class="img-9">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-6_4.png" alt="">
+      </div>
+    </section>
+    <section class="section section-7"></section>
+    <section class="section section-8"></section>
+    <section class="section section-9">
+      <div class="img-10">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-9_1.png" alt="">
+      </div>
+      <div class="img-11">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-9_2.gif" alt="">
+      </div>
+    </section>
+    <section class="section section-10">
+      <div class="img-12">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-10_1.png" alt="">
+      </div>
+      <div class="img-13">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-10_2.gif" alt="">
+      </div>
+    </section>
+    <section class="section section-11">
+      <div class="img-14">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_1.png" alt="">
+      </div>
+      <div class="img-15">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_2.png" alt="">
+      </div>
+      <div class="img-16">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_3.png" alt="">
+      </div>
+      <div class="img-17">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_4.png" alt="">
+      </div>
+      <div class="img-18">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_5.png" alt="">
+      </div>
+      <div class="img-19">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_6.png" alt="">
+      </div>
+      <div class="img-20">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_7.png" alt="">
+      </div>
+      <div class="img-21">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_8.png" alt="">
+      </div>
+      <div class="img-22">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_9.png" alt="">
+      </div>
+      <div class="img-23">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-11_10.png" alt="">
+      </div>
+    </section>
+    <section class="section section-12">
+      <div class="img-24">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-12_1.png" alt="">
+      </div>
+    </section>
+    <section class="section section-13">
+      <div class="img-25">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-13_1.png" alt="">
+      </div>
+      <div class="img-26">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-13_2.gif" alt="">
+      </div>
+    </section>
+    <section class="section section-14">
+      <div class="img-27">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-14_1.png" alt="">
+      </div>
+      <div class="img-28">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-14_2.gif" alt="">
+      </div>
+    </section>
+    <section class="section section-15">
+      <div class="img-29">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-15_1.png" alt="">
+      </div>
+      <div class="img-30">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-15_2.png" alt="">
+      </div>
+      <div class="img-31">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-15_3.png" alt="">
+      </div>
+      <div class="img-32">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-15_4.png" alt="">
+      </div>
+      <div class="img-33">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-15_5.png" alt="">
+      </div>
+    </section>
+    <section class="section section-16">
+      <div class="img-34">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-16_1.png" alt="">
+      </div>
+    </section>
+    <section class="section section-17">
+      <div class="img-35">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-17_1.png" alt="">
+      </div>
+      <div class="img-36">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-17_2.gif" alt="">
+      </div>
+    </section>
+    <section class="section section-18">
+      <div class="img-37">
+        <img src="https://rawcdn.githack.com/minjeong10/minjeong-project/master/docs/resource/a-18_1.png" alt="">
+      </div>
+    </section>
+    <section class="section section-19"></section>
+  </div>
+</body>
+</html>
